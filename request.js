@@ -1030,6 +1030,7 @@ Request.prototype.onResponse = function (response) {
         self.removeHeader('host')
         self.removeHeader('content-type')
         self.removeHeader('content-length')
+        self.removeHeader('authorization')
       }
     }
 
